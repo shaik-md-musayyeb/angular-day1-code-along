@@ -1,0 +1,51 @@
+
+hr {
+    width: 400px;
+}
+
+#portfolio {
+    background-image: url(../../assets/Porfolio-background.svg);
+    background-color: black;
+    color: white;
+
+}
+
+#portfolio,
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#portfolio h3,
+p,
+hr {
+    margin-bottom: 20px;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+#portfolio div article {
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#portfolio div article p {
+    padding: 0px 5px;
+}
